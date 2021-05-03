@@ -24,15 +24,6 @@ brew services start redis
 Other platforms can navigate to https://redis.io/download for download instructions.
 NOTE: You will need to start the redis server in order for the CLI to work.
 
-## Install
-
-1. Install the CLI dependencies
-```bash
-pip3 install -r requirements.txt
-```
-
-NOTE: Make sure /usr/local/bin is in your path
-
 ## Usage
 
 #### Login
