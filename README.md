@@ -4,13 +4,6 @@ Fast Test Suite CLI only works with Sandbox environment.
 
 ## Prerequisites
 
-#### Python 3
-Make sure you have a version of Python 3 installed
-```bash
-python3 --version
-```
-You can download the latest version of Python here if you don't have it already: https://www.python.org/downloads/
-
 #### Redis
 You will need to install Redis which is in charge of storing your API Access Token securely
 
