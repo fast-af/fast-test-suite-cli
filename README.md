@@ -26,9 +26,9 @@ NOTE: You will need to start the redis server in order for the CLI to work.
 
 ## Install
 
-1. Install the CLI
+1. Install the CLI dependencies
 ```bash
-./install_fast_cli.sh
+pip3 install -r requirements.txt
 ```
 
 NOTE: Make sure /usr/local/bin is in your path
@@ -39,7 +39,7 @@ NOTE: Make sure /usr/local/bin is in your path
 To login you will need the API key provided to you and your app id.
 This command will store your API key in a local file. Please use logout when finished to remove this file
 ```bash
-fast-test-suite login
+./fast-test-suite login
 Please enter your API access token: <api_token>
 Please enter your app id: <app_id>
 ```
@@ -47,22 +47,22 @@ Please enter your app id: <app_id>
 #### Logout
 Logout will remove your API key from the filesystem. Run this once you are done using the CLI.
 ```bash
-fast-test-suite logout
+./fast-test-suite logout
 ```
 
 #### PDP Simple New User
 ```bash
-fast-test-suite pdp-simple-new-user --product-id=<product_id> --app-id=<app_id>
+./fast-test-suite pdp-simple-new-user --product-id=<product_id> --app-id=<app_id>
 ```
 
 #### PDP Simple Existing User
 ```bash
-fast-test-suite pdp-simple-existing-user --product-id=<product_id> --app-id=<app_id>
+./fast-test-suite pdp-simple-existing-user --product-id=<product_id> --app-id=<app_id>
 ```
 
 #### PDP Simple Full Suite
 ```bash
-fast-test-suite pdp-simple-full-suite --product-id=<product_id> --app-id=<app_id>
+./fast-test-suite pdp-simple-full-suite --product-id=<product_id> --app-id=<app_id>
 ```
 
 ## Common Issues
