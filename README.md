@@ -19,6 +19,8 @@ NOTE: You will need to start the redis server in order for the CLI to work.
 
 ## Usage
 
+NOTE: If you are having SSL issues, you can use the flag --disable-ssl to disable ssl for that request.
+
 #### Login
 To login you will need the API key provided to you and your app id.
 This command will store your API key in a local file. Please use logout when finished to remove this file
