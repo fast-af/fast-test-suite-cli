@@ -51,6 +51,11 @@ Logout will remove your API key from the filesystem. Run this once you are done 
 ./fast-test-suite pdp-simple-full-suite --product-id=<product_id> --app-id=<app_id>
 ```
 
+#### Seller->Fast Refund Order
+```bash
+fast-test-suite refund-order --app-id=<app_id> --order-id=<order_id> --line-id=<line_id> --url=<url_if_custom>
+```
+
 ## Common Issues
 
 #### Initiate Checkout Stage fails
