@@ -21,6 +21,10 @@ NOTE: You will need to start the redis server in order for the CLI to work.
 
 NOTE: If you are having SSL issues, you can use the flag --disable-ssl to disable ssl for that request.
 
+#### Find your distribution
+Navigate to the folder of your operating system  
+i.e. if on Mac run `cd macos`
+
 #### Login
 To login you will need the API key provided to you and your app id.
 This command will store your API key in a local file. Please use logout when finished to remove this file
